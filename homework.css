@@ -1,0 +1,154 @@
+ .logo{
+    width: 10px 10px;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: grey;
+    height: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    transition: all 2s;
+}
+li a:hover{
+    text-decoration: underline;
+    background-color: black;
+    transform: scale(1.2);
+}
+
+.container{
+    position: absolute;
+    height: 90%;
+    background-image: url(elec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container h1{
+padding-top: 80px;
+font-size: 100px;
+text-align: center;
+}
+
+.text h1{
+    padding-top: 50px;
+    text-align: center;
+}
+.box-1 h1{
+    padding-top: 30px;
+}
+.box-1{
+    display: flex;
+    padding-left: 50px;
+}
+.fart img{
+padding-right: 200px;
+} 
+.box-2 h1{
+    padding-top: 70px;
+}
+.special p{
+    padding-top: 40px;
+    font-size: 25px;
+}
+.TOP h1{
+    padding-top: 20px;
+}
+.special button{
+    text-decoration: underline;
+}
+.toy img{
+    padding-left: 100px;
+    width: 500px;
+}
+.toys img{
+    padding-left: 40px;
+    width: 500px;;
+}
+.fall{
+    text-align: center;
+    font-family: sans-serif;
+}
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+footer ul{
+    text-align: center;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav ul li a{
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+.footerbottom{
+    background-color: #000;
+    text-align: center;
+    width: 96%;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+.lago{
+    position: absolute;
+    right: 15%;
+}

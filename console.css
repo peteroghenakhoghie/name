@@ -1,0 +1,73 @@
+.logo{
+    width: 10px 10px;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: grey;
+    height: 60px;
+    position: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    transition: all 2s;
+}
+li a:hover{
+    text-decoration: underline;
+    background-color: black;
+    transform: scale(1.2);
+}
+.lion{
+    padding-left: 80px;
+    display: flex;
+    padding-top: 50px;
+}
+.a{
+    display: flex;
+    padding-top: 80px;
+}
+
+.pan button{
+    transition: all 0.5s; 
+}
+.pan button:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.1)
+}
+.e{
+    display: flex;
+}
+.b{
+    display: flex;
+    padding-top: 100px;
+}
+.c{
+    display: flex;
+}
+.d{
+    display: flex;
+}
+.bird{
+    padding-top: 100px;
+    text-align: center;
+    color: grey;
+    font-size: 30px; 
+}
